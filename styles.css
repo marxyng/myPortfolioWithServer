@@ -7,12 +7,42 @@ body{
 
 h1{
 text-align: center;
+color: paleturquoise;
 
+}
+
+p {
+    text-align: center;
+    color:paleturquoise;
+    font-size: 2rem;
+}
+
+#word_skills{
+    text-decoration: underline;
+    text-align:center;
+}
+
+#social_media{
+color:paleturquoise;
+text-align: center;
+font-size: 2rem;
+}
+
+#skillset{
+    display:block;
+    color:paleturquoise;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#new_html{
+    width: 5rem;
 }
 
 .container{
     background-color: paleturquoise;
-    
+    padding-top: 1rem;
+    width: 100%;
     
 }
 
@@ -28,4 +58,12 @@ ul li{
         margin-left: auto;
         margin-right: auto;
         
+}
+
+#Marx2{
+    display: block;
+    width : 20rem;
+    margin-left: auto;
+    margin-right: auto;
+
 }
