@@ -11,6 +11,12 @@ color: paleturquoise;
 
 }
 
+#coming_soon{
+    text-align: center;
+    color:paleturquoise;
+    font-size: 20rem;
+}
+
 #bN1{
     display: block;
     width : 10rem;
