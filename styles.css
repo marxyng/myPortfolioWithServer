@@ -11,6 +11,14 @@ color: paleturquoise;
 
 }
 
+#bN1{
+    display: block;
+    width : 10rem;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
 p {
     text-align: center;
     color:paleturquoise;
