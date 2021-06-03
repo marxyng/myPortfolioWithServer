@@ -35,7 +35,16 @@ color: paleturquoise;
     font-size: 2rem;
 }
 
+#nightClub{
+    color:paleturquoise;
+    font-size: 2rem;
 
+}
+
+#proj{
+    display: block;
+    color:paleturquoise;
+}
 p {
     text-align: center;
     color:paleturquoise;
