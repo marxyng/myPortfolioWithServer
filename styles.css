@@ -41,6 +41,10 @@ color: paleturquoise;
 
 }
 
+#ticTac{
+      color:paleturquoise;
+    font-size: 2rem;
+}
 #proj{
     display: block;
     color:paleturquoise;
