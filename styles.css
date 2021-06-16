@@ -41,6 +41,17 @@ color: paleturquoise;
 
 }
 
+#theoutlet{
+    color:paleturquoise;
+    font-size: 2rem;
+
+}
+
+#excur{
+    color:paleturquoise;
+    font-size: 2rem;
+}
+
 #proj{
     display: block;
     color:paleturquoise;
