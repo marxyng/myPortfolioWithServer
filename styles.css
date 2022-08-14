@@ -84,18 +84,22 @@ font-size: 2rem;
 #new_html{
     width: 5rem;
 }
-
+/*
 .container{
     background-color: paleturquoise;
     padding-top: 1rem;
     width: 100%;
     
 }
-
+*/
 ul li{
     display:inline-block;
     margin: 2rem;
     
+}
+
+.copyMe{
+    color: paleturquoise
 }
 
 #Marx {

@@ -5,19 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>myportfolio</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     
+    
     <div class= "container" >
         <ul>
-            <li><a  href="./index.html">Home</a></li>
+            <li><a  href="./home.html">Home</a></li>
             <li><a href="./about.html">About</a></li>
             <li><a href="./contact.html">Contact</a></li>
             <li><a href="./projects.html">Projects</a></li>
         </ul>
         </div>
-      
+        <h1>One thing to know is I love coding and stocks</h1>
+        <center>
+        <form action="/" method="post">
+        <label for="priceInput">Stock Ticker:</label>
+      <input type="text" name="stockPrice" >
+      <button type="submit" >Go</button>
+    </form>
+</center>
+<br>
+<br>
+<br>
+<br>
+<br>
+
     <h1>Marx Young</h1>
 
     <img src ="marxInBabyBlueJeanJacket.jpg" alt="Marx photo" id="Marx"/>
@@ -25,16 +41,16 @@
 
 
     <p>Hi I'm Marx Young.  I have been computer programming off 
-        and on since 2007. I'm a full stack developer. I will be 
-        graduating this year with  a masters in Information Technology.  
-        I'm curious, confident, and always working on ways  to better myself.
+        and on since 2007. I'm a full stack developer. I graduated 
+        in 2021 with a masters in Information Technology.  
+        I'm curious, confident, and always working on ways to better myself.
     </p>
 
 
 
     <p id="word_skills">skills</p>
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-3" style="border: 1px solid; color: paleturquoise;">
         <h1>Front-End</h1>
         <ul>
     
@@ -43,7 +59,7 @@
             <li id="skillset"> javascript </li>
             <li id="skillset"> React.js</li>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-3" style="border: 1px solid; color: paleturquoise;">
         <h1>databases</h1>
         <ul>
         <li id="skillset"> mongoDB </li>
@@ -51,25 +67,28 @@
     </ul>
     </div>
 
-    <div class="col-md-4">
+    <div class="col-md-3" style="border: 1px solid; color: paleturquoise;">
 <h1>Back-End</h1>
         <ul>
             <li id="skillset"> Express.js</li>
             <li id="skillset"> Node.js</li>
         </ul>
     </div>
-    
-   
-    
-    <li id="skillset">  python</li>
-    <li id="skillset">Github</li>
-   
- 
-    
-    <li id="skillset"> figma</li>
 
+    <div class="col-md-3" style="border: 1px solid; color: paleturquoise;">
+    <h1>Other</h1>
+    <ul>
+        <li id="skillset">Github</li>
+        <li id="skillset">  python</li>
+        <li id="skillset"> figma</li>
+        <li id="skillset">Photoshop</li>
+        <li id="skillset">C#</li>
 
-</ul>
+    </ul>
+    
+    
+    </div>
+    
 </div>
 
 <p>for a little interactivity</p>
@@ -81,6 +100,8 @@
 <br/>
 <br/>
 <br/>
+
+<p class="copyMe">&copy 2022</p>
 
 
 <script src ="app.js" defer></script>
