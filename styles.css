@@ -17,6 +17,11 @@ color: paleturquoise;
     font-size: 5rem;
 }
 
+.heading{
+    color:paleturquoise;
+    font-size: 2rem;
+}
+
 
 #coming_soon{
     text-align: center;
@@ -38,6 +43,27 @@ color: paleturquoise;
 
 #Dice {
     
+    color:paleturquoise;
+    font-size: 2rem;
+}
+
+#todoList2{
+    color:paleturquoise;
+    font-size: 2rem;
+}
+
+#Cap{
+    color:paleturquoise;
+    font-size: 2rem;
+
+}
+
+#ticTac{
+    color:paleturquoise;
+    font-size: 2rem; 
+}
+
+#theoutletTwo{
     color:paleturquoise;
     font-size: 2rem;
 }
@@ -67,6 +93,11 @@ p {
     text-align: center;
     color:paleturquoise;
     font-size: 2rem;
+}
+.instruct{
+    text-align: center;
+    color:paleturquoise;
+    font-size: 1rem; 
 }
 
 #word_skills{
