@@ -19,7 +19,11 @@ color: paleturquoise;
 
 .heading{
     color:paleturquoise;
-    font-size: 2rem;
+    font-size: 1rem;
+    margin-left:0;
+    padding: 0;
+    display:inline-block;
+    position:absolute;
 }
 
 
